@@ -1,0 +1,55 @@
+/* src/App.css */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  /* 글자가 노란색일 때 잘 보이도록 배경을 조금 어둡게 하거나 세련된 남색 계열로 추천해요 */
+  background-color: #1a1a1a; 
+  font-family: 'Pretendard', sans-serif;
+  padding: 20px;
+}
+
+.card {
+  background: #2d2d2d; /* 카드 배경도 어둡게 */
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+  margin: 20px 0;
+  text-align: center;
+  border: 1px solid #444;
+}
+
+.motto-text {
+  font-size: 1.8rem;
+  font-weight: bold;
+  line-height: 1.5;
+  /* 요청하신 노란색 적용! */
+  color: #FFD700; /* 황금색 계열의 진한 노란색입니다 */
+  word-break: keep-all; /* 한글이 예쁘게 줄바꿈되도록 도와줘요 */
+}
+
+h1 {
+  color: white;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  opacity: 0.8;
+}
+
+button {
+  padding: 12px 24px;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 12px;
+  border: none;
+  background-color: #FFD700; /* 버튼도 깔맞춤! */
+  color: #1a1a1a;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+button:active {
+  transform: scale(0.95); /* 눌렀을 때 쫀득한 느낌 */
+}
